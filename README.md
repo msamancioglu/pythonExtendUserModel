@@ -1,8 +1,7 @@
 # Extending base User Model of Django 
 
    Example Python/Django application for extending default User model of Django with additional fields by inheriting AbstractUser base model. 
-There are some other ways to implement this goal (line one-to-one relationship, etc.)  
-but, this is arguably the least problematic and smooth way of extending User model.
+There are some other ways to implement this goal (line one-to-one relationship, etc.) but, this is arguably the least problematic and smooth way of extending User model.
 
 
 P.S.:
