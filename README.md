@@ -16,10 +16,14 @@ Then, extend AbstractUser with new fields (bio, location, birth_date, second_mai
                   second_email  = models.EmailField(null=True, blank=True)
 
 
-Finally, add following line to settings.py (customuser/settings.py)
+Add following line to settings.py (customuser/settings.py)
 
           AUTH_USER_MODEL = 'customuserapp.User'
 
+
+Finally, migrate database
+
+         python manage.py migrate
 
 P.S.:
   Preferably, this must be done before any reference to User model in your app to prevent conflicts 
