@@ -2,6 +2,10 @@
 
 Example Python/Django application for extending default User model of Django with additional fields by inheriting AbstractUser base model.
 
+P.S.:
+  Preferably, this must be done before any reference to User model in your app to prevent conflicts 
+
+--------------
 
 First, import AbstractUser model in models.py (customuserapp/models.py):
 
@@ -25,5 +29,4 @@ Finally, migrate database
 
          python manage.py migrate
 
-P.S.:
-  Preferably, this must be done before any reference to User model in your app to prevent conflicts 
+
