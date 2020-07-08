@@ -7,6 +7,9 @@ P.S.:
 
 --------------
 
+# So, let's do it!
+
+
 First, import AbstractUser model in models.py (customuserapp/models.py):
 
          from django.contrib.auth.models import AbstractUser
